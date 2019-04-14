@@ -5,15 +5,15 @@ var trabajos = [
     title: "Ápeiron",
     about: "Revista dedicada a la opinión y debate entorno al suicidio",
 }, {
-    figure: "media/lampara-2.jpg",
+    figure: "media/lampara.jpg",
     title: "Lámpara de sulfato de cobre",
     about: "Experimentación con material para la creación de luminaria",
 }, {
-    figure: "media/Examen Triza1.jpg",
+    figure: "media/triza.jpg",
     title: "Triza",
-    about: "Acá la va la tercera",
+    about: "Cocktail ahumado en base a licor de plátano, jarabe de porotos y sake, servido en berenjena subzero",
 }, {
-    figure: "media/gertrudis3.png",
+    figure: "media/gertrudis.jpg",
     title: "Revista Literaria",
     about: "Acá la va la cuarta",
 }, {
@@ -21,7 +21,7 @@ var trabajos = [
     title: "Carta Vendetta Bakery",
     about: "Rediseño Carta principal y de bebestibles Vendetta Bakery",
 }, {
-    figure: "media/MH.png",
+    figure: "media/MH.jpg",
     title: "Maniobra H",
     about: "Acá la va la sexta",
 }, {
@@ -29,11 +29,11 @@ var trabajos = [
     title: "Tipografía Quimera",
     about: "Nulla pretium non sapien eget fermentum",
 }, {
-    figure: "media/perrosbella1.png",
+    figure: "media/perrosbella.jpg",
     title: "Perros de Bellavista",
     about: "Fanzine sobre estudio etnográfico de perros callejeros de Bellavista",
 }, {
-    figure: "media/HISTORIADELDISEÑOFINAL-02.jpg",
+    figure: "media/lavadora.jpg",
     title: "Afiche Lavadora Panasonic",
     about: "Nulla pretium non sapien eget fermentum",
 }, {
@@ -41,7 +41,7 @@ var trabajos = [
     title: "OPHIC",
     about: "Nulla pretium non sapien eget fermentum",
 }, {
-    figure: "media/ramonojos.jpg",
+    figure: "media/repu.jpg",
     title: "REPÜ",
     about: "Nulla pretium non sapien eget fermentum",
 }
