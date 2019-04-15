@@ -49,7 +49,7 @@ h3{
 
 a{
 	font-size: 1rem;
-	color:rgba(36,43, 127,1);
+	color:rgba(255, 229, 227,1);
 	text-decoration:none;
 }
 
@@ -58,6 +58,13 @@ a:hover{
 	text-decoration:underline;
 }
 
+ab{
+	color:rgba(232, 190, 201, 1.0);
+}
+
+ab:hover{
+	color:rgba(42, 49, 121, 1.0);
+}
 /* COMENZAMOS CON LAS PARTES */
 
 #contenido{width:98%; margin:1%;}
@@ -92,36 +99,34 @@ video{
 	min-height:300px;
 	text-align:left;
 	background-color:rgba(248, 192, 203, 1.00);
-	background-image:url('media/dupla-01.jpg');
+	background-image:url('media/foto-gracia.jpg');
 	background-position:top right;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
 }
-
-.primera h4{padding: 2% 40% 1% 2%;}
+.primera h4{padding: 2% 40% 1% 2%; font-size:2em; color: rgba(42, 49, 121, 1.0);}
 
 .primera h5{padding: 1% 40% 2% 2%; margin-bottom:5em; letter-spacing:0.1em;}
 
-.primera p{padding: 2% 40% 2% 2%;}
+.primera p{padding: 2% 60% 2% 2%; font-size:0.8em; color:rgba(255,255,255,0.9);}
 
-.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal; color: rgba(42, 49, 121, 1)}
+.primera address{padding: 2% 40% 2% 2%; font-size:0.9em; font-style:normal;}
 
 .segunda{
-	min-height:250px;
+	min-height:300px;
 	text-align:right;
 	background-color:rgba(248, 192, 203, 1.00);
 	background-image:url('media/foto-olga.jpg');
 	background-position:top left;
 	background-repeat:no-repeat;
 	background-size:auto 100%;
-	margin-left:21%;
 }
 
-.segunda h4{padding: 2% 2% 1% 40%;}
+.segunda h4{padding: 2% 2% 1% 40%; font-size:2em; color: rgba(42, 49, 121, 1.0);}
 
 .segunda h5{padding: 1% 2% 2% 40%; margin-bottom:5em; letter-spacing:0.1em;}
 
-.segunda p{padding: 2% 2% 2% 40%;}
+.segunda p{padding: 2% 2% 2% 60%; font-size:0.8em; color:rgba(255,255,255,0.9);}
 
 .segunda address{padding: 2% 2% 2% 40%; font-size:0.9em; font-style:normal;}
 
@@ -149,19 +154,23 @@ video{
 
 .item figure{
 	overflow:hidden;
+	background: rgba(29,29,188,0.9);
 }
 
 .item figure img{
-	width:100%;
-	height:auto;
-	margin-bottom:-4px;
-	filter: blur(0px);
+  width:100%;
+  height:auto;
+  margin-bottom:-4px;
+  filter: blur(2px);
+  opacity: 0.5;
 }
 
 .item:hover figure img{
-	transform: scale(1.1);
-	filter: blur(1px);
-	transition:all ease-out 1s;
+  transform: scale(1.1);
+  filter: blur(0);
+  opacity: 1;
+	transition:all ease-in 0.5s;
+
 }
 
 .item h4{

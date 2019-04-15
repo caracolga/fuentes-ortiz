@@ -15,19 +15,19 @@ var trabajos = [
 }, {
     figure: "media/gertrudis.jpg",
     title: "Revista Literaria",
-    about: "Acá la va la cuarta",
+    about: "Ejercicio de la Academia Literaria LMS",
 }, {
     figure: "media/cartavendettabakery.jpg",
     title: "Carta Vendetta Bakery",
-    about: "Rediseño Carta principal y de bebestibles Vendetta Bakery",
+    about: "Rediseño carta principal y de bebestibles Vendetta Bakery",
 }, {
     figure: "media/MH.jpg",
     title: "Maniobra H",
-    about: "Acá la va la sexta",
+    about: "Dispositivo que optimiza la realización de la maniobra de Heimlich",
 }, {
     figure: "media/quimera.jpg",
     title: "Tipografía Quimera",
-    about: "Nulla pretium non sapien eget fermentum",
+    about: "Tipografía digital de título para textos inspirada en las estalactitas",
 }, {
     figure: "media/perrosbella.jpg",
     title: "Perros de Bellavista",
@@ -35,15 +35,15 @@ var trabajos = [
 }, {
     figure: "media/lavadora.jpg",
     title: "Afiche Lavadora Panasonic",
-    about: "Nulla pretium non sapien eget fermentum",
+    about: "Diseño de gráfica y su valor adquirido",
 }, {
     figure: "media/ramonojos.jpg",
-    title: "OPHIC",
-    about: "Nulla pretium non sapien eget fermentum",
+    title: "ÖPHIC",
+    about: "Diseño de interacción traducida en una performance para la fiesta ÖPHIC",
 }, {
     figure: "media/repu.jpg",
     title: "REPÜ",
-    about: "Nulla pretium non sapien eget fermentum",
+    about: "Experiencia educativa desde la mujer mapuche educadora",
 }
 ]
 // LUEGO CREAMOS PARTES DEL SITIO CON CADA DATO CONTENIDO EN LA VARIABLE
