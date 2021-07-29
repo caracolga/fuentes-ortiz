@@ -89,45 +89,15 @@ img {
 .container-fullheight {
   height: 100%;
   width: 100%;
+  position: absolute;
 }
 
 .container-fullheight-2 {
-  height: 100%;
-  width: 100%;
+  height: 100vh;
   position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.container-fullheight .scene {
-  z-index: 999999;
-  -webkit-filter: blur(0px) grayscale(0%);
-  filter: blur(0px) grayscale(0%);
-  opacity: 1;
-  transition-duration: 0.5s;
-}
-
-.container-fullheight .scene:hover {
-  z-index: 99999999999999999999;
-  -webkit-filter: blur(1px) grayscale(90%);
-  filter: blur(1px) grayscale(90%);
-  opacity: 0.7;
-}
-
-.cover {
-  object-fit: cover;
-}
-
-.contain {
-  object-fit: contain;
-}
-
-.center {
-  position: absolute;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
 .button-enter {
@@ -147,10 +117,51 @@ img {
   font-weight: 500;
 }
 
-.scene5 {
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.center {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+div .scene {
+  position: relative;
+  width: 25%;
+  z-index: 99999999;
+  display: block;
+  -webkit-filter: blur(0px) grayscale(0%);
+  -moz-filter: blur(0px) grayscale(0%);
+  -o-filter: blur(0px) grayscale(0%);
+  -ms-filter: blur(0px) grayscale(0%);
+  filter: blur(0px) grayscale(0%);
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+
+div .scene:hover {
+  -webkit-filter: blur(1px) grayscale(90%);
+  -moz-filter: blur(1px) grayscale(90%);
+  -o-filter: blur(1px) grayscale(90%);
+  -ms-filter: blur(1px) grayscale(90%);
+  filter: blur(1px) grayscale(90%);
+  opacity: 0.7;
+}
+
+div .scene5 {
   margin: 0;
   width: 45%;
-  z-index: 1;
+}
+
+div .scene5:hover {
+
 }
 
 .carousel-item {
