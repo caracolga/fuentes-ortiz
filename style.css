@@ -1,0 +1,211 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+html {
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding-top: 50px;
+  display: block;
+  position: relative;
+  background-color: #202020;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#enterContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    flex-direction: column;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999999999999;
+    background-color: rgba(0,0,0,1);
+}
+
+#enterContainer p {
+  text-justify: center;
+  font-family: 'Karla', sans-serif;
+  font-weight: 400;
+  color: rgba(210, 210, 210, 1);
+}
+
+#enterContainer h2 {
+  font-family: 'Dela Gothic One', serif;
+  color: #FFFFFF;
+}
+
+#parallax {
+
+}
+
+.bg-image {
+  content: "";
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("fondo-cocina.png");
+  -webkit-filter: blur(1px);
+  filter: blur(1px);
+  background-position: top 25%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.navbar {
+  font-family: 'Dela Gothic One', sans-serif;
+  z-index: 10;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-main {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.container-fullheight {
+  height: 100%;
+  width: 100%;
+}
+
+.container-fullheight-2 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fullheight .scene {
+  z-index: 999999;
+  -webkit-filter: blur(0px) grayscale(0%);
+  filter: blur(0px) grayscale(0%);
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.container-fullheight .scene:hover {
+  z-index: 99999999999999999999;
+  -webkit-filter: blur(1px) grayscale(90%);
+  filter: blur(1px) grayscale(90%);
+  opacity: 0.7;
+}
+
+.cover {
+  object-fit: cover;
+}
+
+.contain {
+  object-fit: contain;
+}
+
+.center {
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.button-enter {
+  background-color: transparent;
+  color: rgba(210, 0, 0, 1);
+  border-color: rgba(210, 0, 0, 1);
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button-enter:hover {
+  background-color: rgba(210,0,0,1);
+  color: black;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+}
+
+.scene5 {
+  margin: 0;
+  width: 45%;
+  z-index: 1;
+}
+
+.carousel-item {
+  height: 27vh;
+  min-height: 240px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  object-fit: contain;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 70px;
+  width: 70px;
+  outline: none;
+  background-size: 100%, 100%;
+  background-image: none;
+}
+
+h1, h2 {
+  margin-bottom: 30px;
+  font-family: 'Dela Gothic One', serif;
+  color: white;
+}
+
+h3 {
+  display: inline;
+  font-family: 'Dela Gothic One', serif;
+  font-size: 90%;
+  text-justify: center;
+  color: rgba(210,0,0,1);
+}
+
+h4, h5 {
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+  color: white;
+}
+
+h4 a {
+  color: #e891ec;
+}
+
+p {
+  line-height: 1.6;
+  text-justify: auto;
+  font-family: 'Karla', sans-serif;
+  font-weight: 300;
+}
+
+footer {
+  color: #FFB6C0;
+  padding-top:2rem;
+  font-size: 90%;
+}
